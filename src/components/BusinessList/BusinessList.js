@@ -3,20 +3,19 @@ import './BusinessList.css';
 import Business from '../Business/Business';
 
 class BusinessList extends React.Component {
-    state = {  }
-    render() { 
+    render() {
         return (
             <div className="BusinessList">
-     <Business />
-     <Business />
-     <Business />
-     <Business />
-     <Business />
-     <Business />
-</div>
-          );
+                <Business />
+                <Business />
+                <Business />
+                <Business />
+                <Business />
+                <Business />
+            </div>
+        );
     }
 }
- 
+
 export default BusinessList;
 
