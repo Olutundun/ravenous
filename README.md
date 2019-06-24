@@ -4,4 +4,4 @@ A Yelp-like app that allows users to search for restaurants and view restaurants
 ## Technologies used
 * React
 * Bootstrap
-* 
+
