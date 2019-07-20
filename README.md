@@ -5,3 +5,5 @@ A Yelp-like app that allows users to search for restaurants and view restaurants
 * React
 * Bootstrap
 
+![ravenous](public/images/ravenous.JPG)
+
