@@ -10,16 +10,16 @@ class App extends React.Component {
     this.state = {
       businesses: []
     };
-   this.searchYelp = this.searchYelp.bind(this)
+    this.searchYelp = this.searchYelp.bind(this)
   }
   searchYelp(term, location, sortBy) {
-     //console.log(`you are searching for ${term}, ${location}, and ${sortBy}`)    
-  Yelp.searchYelp(term, location, sortBy).then((businesses) => {
-    this.setState({
-      businesses: businesses
+    //console.log(`you are searching for ${term}, ${location}, and ${sortBy}`)    
+    Yelp.searchYelp(term, location, sortBy).then((businesses) => {
+      this.setState({
+        businesses: businesses
+      })
     })
-  })
-    }
+  }
   render() {
     return (
       <div className="App">
@@ -28,7 +28,7 @@ class App extends React.Component {
         <BusinessList businesses={this.state.businesses} />
       </div>
     );
-}
+  }
 }
 
 export default App;
